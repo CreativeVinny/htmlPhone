@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Smartphone</title>
+
+<script>
+    function getTime(){
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+
+        if(h < 10){
+            h= "0"+h;
+        }
+        if(m <10){
+            m= "0"+m;
+        }
+
+        document.getElementById('clock').innerHTML = h+":"+m;
+        var rerun = setTimeout(getTime,6000);
+    }
+</script>
+
+</head>
+<body onload="getTime()" >
+    <div class="iphone">
+        <div class="rand">
+            <div class="display">
+                <div class="head">
+                    <div class="head_left">
+                        <div id="clock"></div>
+                    </div>
+                    <div class="head_mid"></div>
+                    <div class="head_right">
+                        <img src="./img/wifi.png">
+                        <img src="./img/internet.png">
+                        <img src="./img/battery.png">
+                    </div>
+                </div>
+                <div class="display_body">
+                    <div class="apps">
+                        <div class="app-container ">
+                            
+                            <div class="app lilac">
+                                <img src="./img/discord.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                            <span>Discord</span>
+                        </div>
+                        <div class="app-container">
+                            <div class="app darkblue">
+                                <img src="./img/book.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                            <span>Kindle</span>
+                        </div>
+                        <div class="app-container">
+                            <div class="app">
+                                <img src="./img/005-cloud.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                            <span>OneDrive</span>
+                        </div>
+                        <div class="app-container">
+                            <div class="app">
+                                <img src="./img/audible.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                            <span>Audible</span>
+                        </div>
+                        <div class="app-container">
+                            <div class="app">
+                                <img src="./img/006-pinterest.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                            <span>Pinterest</span>
+                        </div>
+                        <div class="app-container">
+                            <div class="app">
+                                <img src="./img/003-youtube.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                            <span>YouTube</span>
+                        </div>
+                        <div class="app-container">
+                            <div class="app">
+                                <img src="./img/007-song.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                            <span>Music</span>
+                        </div>
+                        <div class="app-container">
+                            <div class="app instagram">
+                                <img src="./img/004-instagram.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                            <span>Instagram</span>
+                        </div>
+                        <div class="app-container">
+                            <div class="app purple">
+                                <img src="./img/twitch2.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                            <span>Twitch</span>
+                        </div>
+                        <div class="app-container">
+                            <div class="app blue">
+                                <img src="./img/008-twitter.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                            <span>Twitter</span>
+                        </div>
+                    </div>
+                    <div class="screencount">
+                        <div class="empty"></div>
+                        <div class="dots">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 29.107 29.107" style="enable-background:new 0 0 29.107 29.107;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+                                <g id="c147_full_moon">
+                                    <g>
+                                        <path d="M14.554,0C6.561,0,0,6.562,0,14.552c0,7.996,6.561,14.555,14.554,14.555c7.996,0,14.553-6.559,14.553-14.555     C29.106,6.562,22.55,0,14.554,0z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#E3E9ED"/>
+                                    </g>
+                                </g>
+                                <g id="Capa_1_14_">
+                                </g>
+                            </g></g> </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 29.107 29.107" style="enable-background:new 0 0 29.107 29.107;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+                                <g id="c147_full_moon">
+                                    <g>
+                                        <path d="M14.554,0C6.561,0,0,6.562,0,14.552c0,7.996,6.561,14.555,14.554,14.555c7.996,0,14.553-6.559,14.553-14.555     C29.106,6.562,22.55,0,14.554,0z" data-original="#000000" class="active-path white" data-old_color="#000000" fill="#E3E9ED"/>
+                                    </g>
+                                </g>
+                                <g id="Capa_1_14_">
+                                </g>
+                            </g></g> </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 29.107 29.107" style="enable-background:new 0 0 29.107 29.107;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+                                <g id="c147_full_moon_white">
+                                    <g>
+                                        <path d="M14.554,0C6.561,0,0,6.562,0,14.552c0,7.996,6.561,14.555,14.554,14.555c7.996,0,14.553-6.559,14.553-14.555     C29.106,6.562,22.55,0,14.554,0z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#E3E9ED"/>
+                                    </g>
+                                </g>
+                                <g id="Capa_1_14_">
+                                </g>
+                            </g></g> </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 29.107 29.107" style="enable-background:new 0 0 29.107 29.107;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+                                <g id="c147_full_moon">
+                                    <g>
+                                        <path d="M14.554,0C6.561,0,0,6.562,0,14.552c0,7.996,6.561,14.555,14.554,14.555c7.996,0,14.553-6.559,14.553-14.555     C29.106,6.562,22.55,0,14.554,0z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#E3E9ED"/>
+                                    </g>
+                                </g>
+                                <g id="Capa_1_14_">
+                                </g>
+                            </g></g> </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 29.107 29.107" style="enable-background:new 0 0 29.107 29.107;" xml:space="preserve" width="512px" height="512px" class=""><g><g>
+                                <g id="c147_full_moon">
+                                    <g>
+                                        <path d="M14.554,0C6.561,0,0,6.562,0,14.552c0,7.996,6.561,14.555,14.554,14.555c7.996,0,14.553-6.559,14.553-14.555     C29.106,6.562,22.55,0,14.554,0z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#E3E9ED"/>
+                                    </g>
+                                </g>
+                                <g id="Capa_1_14_">
+                                </g>
+                            </g></g> </svg>
+                      
+                        </div>
+                        <div class="empty"></div>
+                        
+                    </div>
+                    <div class="favorites">
+                        <div class="app-container">
+                            <div class="app green">
+                                <img src="./img/phone.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="app-container">
+                            <div class="app">
+                                <img src="./img/safari.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="app-container">
+                            <div class="app">
+                                <img src="./img/Notion_app_logo.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                        <div class="app-container">
+                            <div class="app green">
+                                <img src="./img/whatsapp.png" alt="">
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
